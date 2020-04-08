@@ -1,0 +1,12 @@
+.thumbnail-about {
+  box-shadow: 30px 30px 0px #e62121;
+}
+
+.about .head {
+  font-weight: 100;
+  color: black;
+}
+
+.text-recipes p {
+  font-size: 20px;
+}
