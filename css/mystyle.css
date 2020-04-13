@@ -10,3 +10,60 @@
 .text-recipes p {
   font-size: 20px;
 }
+
+.food-name h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.food-time {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  text-align: center;
+}
+
+.food-time p:first-child {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.food-time p:nth-child(2n) {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.dotted-center {
+  border: 2px dotted black;
+}
+
+.text-materials li {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .little-description {
+    display: none;
+  }
+}
+
+.little-description p:first-child {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.little-description p:nth-child(2n) {
+  margin-top: -15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.page-burger {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/burger.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+}
