@@ -59,11 +59,83 @@
   font-size: 20px;
 }
 
-.page-burger {
+.page-pasta {
   padding: 250px 0 150px;
   background: url(../images/food-recipe/pasta.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0 0;
+  position: relative;
+}
+
+.page-kopyor-durian {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/kopyor_durian.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-teri-balado {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/teri_balado.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-cocopandan-selasih {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/es_serut.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-omelet-ayam {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/omelet_ayam.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-teri-balado {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/sup_ikan.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-labu-kukus {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/labu_kukus.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-labu-udang {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/sayur.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-sushi {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/sushi.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
   position: relative;
 }
