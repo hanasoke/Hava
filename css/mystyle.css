@@ -139,3 +139,57 @@
   background-position: 0 -10px;
   position: relative;
 }
+
+.page-gulung-keju {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/gulung_keju.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-singkong-thailand {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/singkong.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-puding-nangka {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/puding.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-kue-cente {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/kue_cente.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-merah-delima {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/merah_delima.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-bubur-candil {
+  padding: 250px 0 150px;
+  background: url(../images/food-recipe/bubur_candil.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
