@@ -28,9 +28,11 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css">
 
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
 </head>
 
-<body>
+<body ng-app="validationApp" ng-controller="mainController">
 	<!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -90,7 +92,7 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required
+									<input type="email" placeholder="Your Email" id="email" class="form-control" name="name" required
 										data-error="Please enter your email">
 									<div class="help-block with-errors"></div>
 								</div>
@@ -128,6 +130,21 @@
 		</div>
 	</div>
 	<!-- End Contact -->
+
+	<!-- Start Map -->
+	<div class="container-fluid mb-5">
+		<div class="row">
+			<div class="col pb-2">
+				<h1 class="text-center text-uppercase">Office Location</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div id="map" style="width: 100%; height: 300px;"></div>
+			</div>
+		</div>
+	</div>
+	<!-- End Map -->
 
 	<!-- Start Contact info -->
 	<div class="contact-imfo-box">
@@ -215,8 +232,8 @@
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<!-- ALL PLUGINS -->
 
+	<!-- ALL PLUGINS -->
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>
@@ -225,16 +242,30 @@
 	<script src="js/form-validator.min.js"></script>
 	<script src="js/contact-form-script.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 	<script>
-		$('.map-full').mapify({
-			points: [{
-				lat: 40.7143528,
-				lng: -74.0059731,
-				marker: true,
-				title: 'Marker title',
-				infoWindow: 'Live Dinner Restaurant'
-			}]
-		});
+		// koordinat dan zoom view peta
+		// Koordinat yang digunakan berupa latitude dan longitude,
+		//sebagai contoh saya menggunakan Koordinat CCIT
+		var map = L.map('map').setView([-6.362141, 106.824923], 17);
+		// ini adalah copyright, bisa dicopot tapi lebih baik kita hargai sang penciptanya ya :)
+		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+			subdomains: ['a', 'b', 'c'],
+		}).addTo(map);
+		// ini adalah koordinat marker
+		L.marker([-6.362141, 106.824923]).addTo(map)
+			.bindPopup("<b>Selamat Datang!</b> Di CCIT FT-UI.").openPopup();
+		var popup = L.popup();
+
+		function onMapClick(e) {
+			popup
+				.setLatLng(e.latlng)
+				.setContent("Koordinat pada titik ini adalah " + e.latlng.toString())
+				.openOn(map);
+		}
+		map.on('click', onMapClick);
 	</script>
 </body>
 
