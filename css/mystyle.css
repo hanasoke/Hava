@@ -196,16 +196,16 @@
 
 .page-rica-rica {
   padding: 250px 0 150px;
-  background: url(../images/carousel_recipe/2.png) no-repeat;
+  background: url(../images/carousel/2.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0 -10px;
   position: relative;
 }
 
-.page-gado-gado {
+.page-gado {
   padding: 250px 0 150px;
-  background: url(../images/carousel_recipe/1.png) no-repeat;
+  background: url(../images/carousel/1.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0 -10px;
@@ -214,7 +214,7 @@
 
 .page-steak {
   padding: 250px 0 150px;
-  background: url(../images/carousel_recipe/3.png) no-repeat;
+  background: url(../images/carousel/3.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 0 -10px;
