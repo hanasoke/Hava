@@ -37,6 +37,4 @@ $('.nav-recipe').on('click', function () {
     // untuk menimpa isinya
     $('#list-menu').html(content)
   })
-
-
 });
