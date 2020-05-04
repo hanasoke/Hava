@@ -193,3 +193,30 @@
   background-position: 0 -10px;
   position: relative;
 }
+
+.page-rica-rica {
+  padding: 250px 0 150px;
+  background: url(../images/carousel_recipe/2.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-gado-gado {
+  padding: 250px 0 150px;
+  background: url(../images/carousel_recipe/1.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
+
+.page-steak {
+  padding: 250px 0 150px;
+  background: url(../images/carousel_recipe/3.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  position: relative;
+}
