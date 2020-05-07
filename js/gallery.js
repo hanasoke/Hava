@@ -1,5 +1,5 @@
 function showALLGallery() {
-  $.getJSON('data/gallery.json', function (data) {
+  $.getJSON('data/hava.json', function (data) {
 
     let gallery = data.gallery;
 

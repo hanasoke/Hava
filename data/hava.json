@@ -89,5 +89,18 @@
     "description": "Campuran lengkuas, daun salam, daun jeruk, dan udang menyatu dalam 1 mangkuk yang penuh cita rasa dan kehangatan.",
     "img": "sayur.png",
     "link": "labu_udang.html"
+  }],
+  "gallery": [{
+    "img": "1.jpg"
+  }, {
+    "img": "2.jpg"
+  }, {
+    "img": "3.jpg"
+  }, {
+    "img": "4.jpg"
+  }, {
+    "img": "5.png"
+  }, {
+    "img": "6.jpg"
   }]
 }
